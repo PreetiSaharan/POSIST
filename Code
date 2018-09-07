@@ -1,0 +1,49 @@
+#include <iostream>
+#include <bits/c++>
+using namespace std;
+
+int struct *Node
+{ int data;
+  struct *NewNode left;
+  struct *NewNode right;
+  struct *NewNode next;
+  NewNode=malloc(sizeof(data));
+}
+
+
+// CREATION OF THE WHOLE TREE
+// SET OF CHILD NODES OF A PARTICULAR NODE----CREATED
+// CHILD NODE ORIGINATING FROM A PARTICULAR NODE ----- CREATED
+
+void createTree()
+{ int struct *z;
+  int p,q,m,n,a,b;
+  int struct *w;
+  w= NULL;
+  z= w->left=NewNode(30); // CREATION OF THE GENESIS NODE-- NAMED AS "Z"
+  for (; p+m<30 && p+n<30 && q+a<30 && q+b<30;)
+  { z->left= NewNode(p); // THE LEFT NODE OF "Z"
+  z->right= NewNode(q);  // THE RIGHT NODE OF "Z". HENCE THE SET OF NODES FOR A ROOT NODE ARE CREATED
+  z->left->left= NewNode(m);
+  z->left->right= NewNode(n);
+  z->right->left= NewNode(a);
+  z->right->right= NewNode(b);
+  } 
+  return z; // POINTER TO THE ROOT NODE OF THE TREE IS RETURNED
+}
+
+
+// DATA EVERY NODE IS ASSOCIATED WITH
+void DataOfNode()
+{struct *Node k;
+ int nodenumber;
+ string data, nodeId, referenceNodeId, childReferenceNodeId, genesisReferenceNodeId, HashValue;
+ date timestamp;
+ string Data[]= { id, value, name};
+ string HashValue[]= {timestamp, data, nodeNumber, nodeId, referenceNodeId, childReferenceNodeId, genesisReferenceNodeId};
+ DataValue[]= {'1', '12', 'Arpita'};
+ Data->DataValue; // ASSOCIATING DATA WITH DATAVALUES
+ z-> Data; //  ASSOCIATING DATA WITH EVERY NODE
+ z-> HashValue; // ASSOCIATING HASHVALUES WITH EVERY NODE
+}
+
